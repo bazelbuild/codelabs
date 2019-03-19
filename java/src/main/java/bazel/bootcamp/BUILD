@@ -2,3 +2,8 @@
 #    "@io_grpc_grpc_java//core",
 #    "@io_grpc_grpc_java//netty",
 #    "@junit_junit//jar",
+
+java_binary(
+	name = "HelloBazelBootcamp",
+	srcs = ["HelloBazelBootcamp.java"],
+)
