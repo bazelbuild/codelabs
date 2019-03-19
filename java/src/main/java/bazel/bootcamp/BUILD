@@ -22,7 +22,8 @@ java_library(
 java_binary(
 	name = "JavaLoggingClient",
 	srcs = ["JavaLoggingClient.java"],
-	deps = [":JavaLoggingClientLibrary"]
+	deps = [":JavaLoggingClientLibrary"],
+	visibility = ["//visibility:public"]
 )
 
 java_test(
