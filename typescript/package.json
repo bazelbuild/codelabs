@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@bazel/hide-bazel-files": "latest",
-    "@bazel/typescript": "^0.35.0",
+    "@bazel/typescript": "^1.7.0",
     "protobufjs": "5.0.3",
     "typescript": "^3.3.1"
   }
